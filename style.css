@@ -1,0 +1,109 @@
+ *{
+	 	margin: 0;
+	 	padding: 0;
+	 	font-size: 1.2rem;
+	 	font-weight: 1rem;
+	 	box-sizing: border-box;
+	 }
+	 html,body{
+	 	font-family: Arial, Helvetica, sans-serif;
+        background: radial-gradient(#9cdcff, #1cafff);
+
+	 }
+
+	 .container{
+	 	width: auto;
+	 	justify-content: center;
+	 	display: flex;
+	 	text-align: center;
+	 	padding: 3rem 0 3rem 0;
+	 	margin-top: 2rem;
+	 	margin-bottom: 2rem;
+
+	 }
+
+	 .button{
+	 	justify-content: center;
+	 	display: flex;
+	 	text-align: center;
+
+	 }
+
+	 .btn-1 {
+        background: rgb(247,150,192);
+       background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+       color: #fff;
+       border: none;
+       transition: all 0.3s ease;
+       overflow: hidden;
+       padding: 0.4rem;
+	 	margin: 0.5rem;
+	 	border-radius: 8px;
+	 	color: blue;
+	 	cursor: pointer;
+	 }
+	 .btn-1:hover{
+	 	background: background: rgb(247,150,192);;
+  box-shadow: none;
+	 }
+
+@media (min-width: 0px, max-width: 480px){
+	.container{
+		width: auto;
+	 	justify-content: center;
+	 	display: flex;
+	 	text-align: center;
+
+	}
+}
+
+/* NAVBAR */
+
+.mobile-container {
+  max-width: auto;
+  margin: auto;
+  background-color: transparent;
+  height: 500px;
+  color: blue;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px 0 0;
+}
+
+.topnav a.icon {
+  float: right;
+  margin-right: : 0.5rem;
+  size: 3rem;
+  color: black;
+}
+
+.topnav a:hover {
+  background-color: #ADD8E6;
+  color: blue;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: #ADD8E6;
+  color: white;
+  border-radius: 8px;
+}
